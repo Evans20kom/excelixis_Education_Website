@@ -1,0 +1,120 @@
+/*Font Rules:
+font-family: 'Rokkitt', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ledger', serif;
+font-family: 'Cardo', serif;
+*/
+
+
+* {
+    margin: 0;   
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+}
+nav {
+    font-family: 'Rokkitt', serif, 'Ledger', serif, 'Cardo', serif, 'Open Sans', sans-serif;
+}
+#brand-image{
+    /*image aspect ratio 1:2.6 */
+    height: 50px;
+    width: 130px;
+    border-style: none;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.curtain {
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gfontsOne{
+    font-family: 'Rokkitt', serif, 'Ledger', serif, 'Cardo', serif, 'Open Sans', sans-serif;;
+    color: #b0adae;
+    text-align: center;
+    text-shadow: 1px 1px 1.5px #aaa;  
+}
+/*.gfontsOne h1{
+    font-size: 50px;
+}*/
+.well {
+    background: black !important;
+    opacity: 0.7;
+    border-style: none !important;
+    padding: 0px;
+}
+.sectOne {
+    background-image: url("../images/index_page/intropagelogo1.jpg"); 
+}
+.sectTwo {
+    background-image: url("../images/index_page/intropagelogo2.jpg");
+}
+.sectThree {
+    background-image: url("../images/index_page/intropagelogo3.jpg");
+}
+.sectFour {
+    background-image: url("../images/index_page/intropagelogo4.jpg");
+}
+.sect {
+    height:80vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+         
+}
+.subsection {
+    background-color: black !important;
+    opacity: 0.7;
+    border-style: none;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    font-size: 1.5em;
+}
+.subsection h1 {
+    font-family: 'Rokkitt', serif, 'Ledger', serif, 'Cardo', serif, 'Open Sans', sans-serif;
+    font-size: 2em;
+    
+}
+.footer {
+    border-style: none;
+    /*navbar inverse standard color*/
+    background-color: #222;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;*/
+    color: #5e5f60;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+}
+.footer a {
+    color: #5e5f60;
+    font-family: 'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+}
+.footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+.footer h4{
+    font-weight: bold;
+    color: #5e5f60; 
+}
+.footer p{
+    color: #5e5f60;    
+}
+
+
+
+

@@ -1,0 +1,112 @@
+/*Font Rules:
+font-family: 'Rokkitt', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ledger', serif;
+font-family: 'Cardo', serif;
+*/
+
+
+* {
+    margin: 0;   
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+}
+nav {
+    font-family: 'Rokkitt', serif, 'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+}
+#brand-image{
+    /*image aspect ratio 1:2.6 */
+    height: 50px;
+    width: 130px;
+    border-style: none;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Cover photo for every page that will be covered (parallax style) whenever the user scrolls down. The image must be specified in the respective html file.*/
+.cover_photo {
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    ;
+}
+
+/*divided into topics, each of them with a header, main text and an image right or left / simple structure. Each topic will have its own css element just in case (for now), and a general topic element. Alternating colour structure: #fff9fa then #eae3e3*/
+
+.tpc{
+    
+    border-style: none;
+    text-align: left;
+    padding: 0px;
+    font-size: 1.2em;
+    font-family:'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+    color: #6d5051;
+}
+.tpc h1  {
+    font-family: 'Rokkitt', serif, 'Ledger', serif, 'Cardo', serif,'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}.tpc h2  {
+    font-family: 'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.cont {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+}
+.topicOne {
+    background-color: #fff9fa;
+}
+.topicTwo {
+    background-color: #eae3e3;
+}
+
+
+
+
+.footer {
+    border-style: none;
+    /*navbar inverse standard color*/
+    background-color: #222;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;*/
+    color: #5e5f60;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+}
+.footer a {
+    color: #5e5f60;
+    font-family: 'Open Sans', sans-serif, 'Ledger', serif, 'Cardo', serif;
+}
+.footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+.footer h4{
+    font-weight: bold;
+    color: #5e5f60; 
+}
+.footer p{
+    color: #5e5f60;    
+}
+
+
+
+
